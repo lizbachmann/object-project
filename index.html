@@ -5,8 +5,18 @@
        <link rel="stylesheet" href="main.css">
    </header>
     <body>
-     <h1>Receipt</h1>   
-     <p></p>
+      <div class="wrapper" ng-controller="TodoCtrl">
+      <h2>Things to do</h2>
+      <ul>
+        <li class="do">
+         
+        </li>
+      </ul>
+<form>
+        <input class="add-input" placeholder="I need to..." type="text" ng-model="to_do_text" ng-model-instant />
+        <button class="add-btn" ng-click="addTodo()"><h2>Add</h2></button>
+      </form>
+
     </body>
-    <script src="myjavascript.js" type="text/javascript"></script>
+    <script src="new.js" type="text/javascript"></script>
 </html>

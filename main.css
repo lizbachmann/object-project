@@ -1,9 +1,26 @@
 body {
 text-align: center;
     font-family: sans-serif;
-    margin-right: 20px;
     font-size: 18px;
+    width: auto;
 }
 p {
 margin: 0;
+}
+
+.wrapper {
+    width: 85%;
+}
+li {
+list-style: none;
+}
+
+.blue {
+background: blue;
+}
+.green {
+background: green;
+}
+.pink {
+ background: pink;
 }
